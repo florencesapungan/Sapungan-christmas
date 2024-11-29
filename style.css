@@ -838,9 +838,9 @@ img {
   background-color: var(--clr-light);
   display: flex;
   flex-direction: column;
-  align-items: start;
   transition: all 0.5s ease;
   z-index: 1;
+  align-items: center !important;
 }
 .grid:hover {
   transform: translateY(-2rem);
